@@ -181,3 +181,20 @@ footer {
         font-size: 29px;
     }
 }
+.project-card span {
+    display: inline-block;
+    color: #38bdf8;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.project-card a:hover,
+#contact a:hover {
+    color: #7dd3fc;
+    text-decoration: underline;
+}
