@@ -40,10 +40,6 @@ leonard-portfolio/
 └── README.md
 ```
 
-## Contact
-
-For questions or collaboration, contact [betterhackerteam@gmail.com](mailto:betterhackerteam@gmail.com).
-
 ---
 
 This portfolio is a work in progress. Projects are documented to reflect the work completed and evidence available in their respective repositories.
