@@ -37,3 +37,8 @@ The investigation focused on reviewing system events, filtering errors, examinin
 This exercise demonstrated practical Linux log review, command-line filtering, authentication-history checks, and evidence-based documentation.
 
 The findings are limited to the records available in the environment during the investigation. No confirmed security breach was established.
+
+## Project Documentation
+
+- [Investigation Report](investigation-report.md)
+- [Terminal Evidence Excerpts](evidence/terminal-output-excerpts.md)
