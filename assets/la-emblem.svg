@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">LA Superhero Emblem</title><desc id="desc">Metallic LA monogram inside a blue superhero shield.</desc>
+<title id="title">LA Superhero Emblem</title><desc id="desc">A clear silver LA monogram inside a blue superhero shield.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152f"/><stop offset=".55" stop-color="#092c75"/><stop offset="1" stop-color="#020817"/></linearGradient>
- <linearGradient id="silver" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#fff"/><stop offset=".25" stop-color="#9caec3"/><stop offset=".52" stop-color="#f5f8ff"/><stop offset=".78" stop-color="#71839b"/><stop offset="1" stop-color="#e7edf7"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#fff"/><stop offset=".25" stop-color="#aebed1"/><stop offset=".52" stop-color="#f8fbff"/><stop offset=".78" stop-color="#8295ad"/><stop offset="1" stop-color="#eef3fb"/></linearGradient>
  <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#168bff"/><stop offset=".55" stop-color="#0750c8"/><stop offset="1" stop-color="#031c55"/></linearGradient>
  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
@@ -10,8 +10,10 @@
 <rect x="12" y="12" width="488" height="488" rx="94" fill="url(#bg)" stroke="#087cff" stroke-width="5"/>
 <path d="M256 43 444 112 426 325 256 468 86 325 68 112Z" fill="#020817" stroke="#00a5ff" stroke-width="13" filter="url(#glow)"/>
 <path d="M256 58 424 120 407 311 256 438 105 311 88 120Z" fill="url(#blue)" stroke="url(#silver)" stroke-width="13"/>
-<path d="M125 153h82v179h102v69H125Z" fill="url(#silver)" stroke="#06142c" stroke-width="12" stroke-linejoin="round"/>
-<path d="m284 401 74-248h76l-3 69-51 179Z" fill="url(#silver)" stroke="#06142c" stroke-width="12" stroke-linejoin="round"/>
-<path d="m338 326 17-59 18 59Z" fill="#082b6c"/>
-<path d="M111 121h290" stroke="#6edbff" stroke-width="5" opacity=".8"/>
+<!-- Bold L -->
+<path d="M119 171H190V331H268V391H119Z" fill="url(#silver)" stroke="#06142c" stroke-width="9" stroke-linejoin="round"/>
+<!-- Wider, unmistakable A with a large triangular counter -->
+<path d="M247 391 300 171H359L414 391H348L339 347H316L307 391Z" fill="url(#silver)" stroke="#06142c" stroke-width="9" stroke-linejoin="round"/>
+<path d="M316 304 329 248 344 304Z" fill="#082b6c"/>
+<path d="M111 121H401" stroke="#6edbff" stroke-width="5" opacity=".8"/>
 </svg>
