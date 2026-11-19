@@ -1,13 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
     background: #07111f;
@@ -25,6 +22,9 @@ body {
 }
 
 .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
     color: #ffffff;
     font-size: 22px;
     font-weight: bold;
@@ -32,14 +32,17 @@ body {
     letter-spacing: 2px;
 }
 
-.logo span {
-    color: #38bdf8;
+.logo img {
+    display: block;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    border-radius: 10px;
 }
 
-nav {
-    display: flex;
-    gap: 25px;
-}
+.logo span { color: #38bdf8; }
+
+nav { display: flex; gap: 25px; }
 
 nav a {
     color: #94a3b8;
@@ -47,9 +50,7 @@ nav a {
     font-size: 14px;
 }
 
-nav a:hover {
-    color: #38bdf8;
-}
+nav a:hover { color: #38bdf8; }
 
 .hero {
     min-height: 75vh;
@@ -73,9 +74,7 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-.hero h1 span {
-    color: #38bdf8;
-}
+.hero h1 span { color: #38bdf8; }
 
 .hero-text {
     color: #94a3b8;
@@ -94,9 +93,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.primary-button:hover {
-    background: #7dd3fc;
-}
+.primary-button:hover { background: #7dd3fc; }
 
 .section {
     padding: 90px 12%;
@@ -169,18 +166,12 @@ footer {
         gap: 15px;
     }
 
-    .hero {
-        padding: 80px 8%;
-    }
-
-    .section {
-        padding: 65px 8%;
-    }
-
-    .section h2 {
-        font-size: 29px;
-    }
+    .hero { padding: 80px 8%; }
+    .section { padding: 65px 8%; }
+    .section h2 { font-size: 29px; }
+    .logo { font-size: 19px; }
 }
+
 .project-card span {
     display: inline-block;
     color: #38bdf8;
