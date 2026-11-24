@@ -146,6 +146,11 @@ nav a:hover { color: #38bdf8; }
     text-decoration: none;
 }
 
+/* Keep the Stripe checkout label readable on its button background. */
+.project-card a.primary-button {
+    color: #07111f;
+}
+
 footer {
     text-align: center;
     padding: 30px;
